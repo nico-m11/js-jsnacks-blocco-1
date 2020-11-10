@@ -57,6 +57,6 @@ for( var i = 0; i < squadre.length; i++) {
 }
 console.log(squadre);
 for (var chiave in squadre) {
-    document.getElementById('output').innerHTML = squadre[chiave] + '<br>';
+    document.getElementById('output').innerHTML += 'Nome squadra: ' + squadre[chiave].nome + ', punti squadra: ' + squadre[chiave].punti + ', falli Subiti: ' + squadre[chiave].falliSubiti + '<br>';
 
 }
