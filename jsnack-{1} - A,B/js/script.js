@@ -27,5 +27,4 @@ console.log(palla.peso);
 palla.peso = parseInt(prompt('inserisci un peso per la nostra Palla:'));
 console.log(palla.peso);
 // adesso lo riporto nel document.HTML
-
 document.getElementById('outputDue').innerHTML = palla.nome + ', il peso da te scelto è: '+ palla.peso;
